@@ -85,7 +85,7 @@ export const employerGetAllApplication = catchAsyncError(async(req, res, next)=>
     })
     res.status(200).json({
         success: true,
-        applications
+        application
     })
 })
 export const jobSeekerGetAllApplication = catchAsyncError(async(req, res, next)=>{
@@ -96,7 +96,7 @@ export const jobSeekerGetAllApplication = catchAsyncError(async(req, res, next)=
     })
     res.status(200).json({
         success: true,
-        applications
+        application
     })
 })
 export const deleteApplication = catchAsyncError(async(req, res, next)=>{

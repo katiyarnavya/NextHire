@@ -296,7 +296,7 @@ footer div ul a {
   transition: 0.3s;
 }
 footer div ul a:hover {
-  color: #dfdf07;
+  color: #abf5b4;
   transition: 0.3s;
 }
 footer div ul a span {
@@ -415,12 +415,12 @@ footer div ul a span {
   max-width: 1700px;
   margin: 0 auto;
   gap: 50px;
-  background: linear-gradient(to bottom, rgb(64, 238, 64),rgb(5, 5, 237));
+  background: linear-gradient(to bottom, rgb(156, 230, 156),rgb(183, 183, 242));
 }
 .services h3 {
   font-size: 2rem;
   font-weight: 600;
-  color: whitesmoke;
+  color: rgb(17, 13, 13);
   text-transform: uppercase;
 }
 .services .grid {
@@ -463,13 +463,13 @@ footer div ul a span {
   align-items: center;
   margin: 0 auto;
   gap: 50px;
-  background: linear-gradient(to bottom,rgb(239, 46, 78), rgb(9, 9, 251));
+  background: linear-gradient(to bottom,rgb(183, 183, 242),rgb(156, 230, 156));
    background-size: cover;
 }
 .howItWorks h3 {
   font-size: 1.75rem;
   font-weight: 600;
-  color: whitesmoke;
+  color: rgb(19, 15, 15);
   text-transform: uppercase;
 }
 .howItWorks .container {
@@ -478,7 +478,7 @@ footer div ul a span {
   gap: 30px;
 }
 .howItWorks .container .card {
-  background: #fff;
+  background: linear-gradient(to bottom, rgb(237, 241, 237),rgb(78, 78, 251));
   padding: 30px 50px;
   display: flex;
   flex-direction: column;
@@ -489,8 +489,8 @@ footer div ul a span {
 .howItWorks .container .card:hover {
   transition: 0.3s;
   transform: translateY(-10px);
-  background: linear-gradient(to bottom, rgb(247, 35, 60), blue);
-  color: #fff;
+  background: linear-gradient(to bottom, rgb(64, 238, 64),rgb(5, 5, 237));
+  color: #2b2929;
 }
 .howItWorks .container .card .icon {
   width: fit-content;
@@ -518,7 +518,7 @@ footer div ul a span {
   font-weight: 500;
 }
 .howItWorks .container .card p {
-  color: gray;
+  color: rgb(38, 37, 37);
 }
 
 @media (max-width: 1720px) {
