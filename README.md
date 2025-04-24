@@ -27,7 +27,7 @@ Technologies Used
 Frontend:
 
 React
-Redux (if used for state management)
+Redux 
 CSS
 Backend:
 
